@@ -22,7 +22,7 @@ angular.module('yawl').config(['$routeProvider', function ($routeProvider) {
 }]);
 
 // Firebase URL
-angular.module('yawl').constant('FBURL', 'https://yawl.firebaseio.com');
+angular.module('yawl').constant('FBURL', 'https://yawl-bf0b3.firebaseio.com');
 
 // Authentication
 angular.module('yawl').run(['$rootScope', '$firebaseAuth', 'FBURL', 'Firebase', '$location',
